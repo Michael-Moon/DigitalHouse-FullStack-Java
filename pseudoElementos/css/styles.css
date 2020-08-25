@@ -1,0 +1,44 @@
+.center {
+    left: 50%;
+    transform: translate(-50%);
+}
+.corpo {
+    position: absolute;
+    width: 50%;
+    height: 750px;
+    background-color: aquamarine;
+    display: flex;    
+    flex-direction: column;    
+}
+.foto{
+    width: 20%;
+    height: 15%;
+    /*background-color: chartreuse;*/
+    margin: 3%;   
+}
+img {
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+.nome {
+    position:absolute;
+    width: 50%;
+    height: 9%;
+    margin: 3.3%;
+   /* background-color: chartreuse;*/
+    display: inline-block;
+    text-align: start;    
+}
+h2 {
+    width: 90%;
+    height: 40%;
+    margin-top: 0%;
+    /*background-color: darkgreen;*/
+}
+h4 {
+    width: 90%;
+    height: 40%;
+    margin-top: -5%;
+    opacity: 0.7;
+   /* background-color: darkgray;*/
+}

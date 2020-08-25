@@ -1,0 +1,128 @@
+body {
+background-color: aquamarine;
+font-size: 13px;
+padding: 20px;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+}
+.box {
+    box-sizing: border-box;
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.classe_pai {
+    border: solid 1px #666; 
+    padding: 5px 10px;
+    /*margin: 40px;
+    display: flex;
+    flex-wrap: nowrap;  */ 
+}
+/*.classe_a {
+
+    width: 250px ;
+    height: 250px;
+    background-color: chartreuse;
+    
+}
+.classe_b {
+    
+    width: 800px;
+    height: 800px;         
+    background-color: cornsilk;
+}
+.classe_c {
+    
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}*/
+h2 {
+    font-size: 2.33em;
+}
+p {
+    font-size: 1.08em;
+}
+strong {
+    font-size: 1.25em;
+}
+@media screen and (max-width: 900px) {
+    .classe_pai {
+        
+        width: 95%;
+        background: cadetblue;
+    }
+    .header {
+        width: 100%;
+    } 
+    .classe_a {
+        padding: 20px;
+        width: 40%;
+        background: #F9C;
+    }   
+    .classe_b {
+        
+        width: 55%;
+        background:greenyellow;
+    }   
+    .classe_c {        
+        width: 100%;
+        background: cadetblue;
+    }  
+}
+@media screen and (max-width: 450px) {  
+    .classe_a {
+        padding: 20px;
+        width: 100%;
+        background: #F9C;
+    }   
+    .classe_b {
+        
+        width: 100%;
+        background:greenyellow;
+    }   
+    .classe_c {        
+        width: 100%;
+        background: cadetblue;
+    } 
+    p {
+        font-size: 1.3em;
+    } 
+}
+/* max-width  */
+/*@media screen and (min-width: 900px) {
+    .classe_a {
+        padding: 20px;
+        width: 40%;
+        background: #F9C;
+    }    
+}
+@media screen and (max-width: 900px) {
+    .classe_b {
+        
+        width: 55%;
+        background:greenyellow;
+    }    
+}
+@media screen and (max-width: 900px) {
+    .classe_c {        
+        width: 100%;
+        background: cadetblue;
+    }    
+}*/
+.n1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+
+}
+.n2 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+
+}

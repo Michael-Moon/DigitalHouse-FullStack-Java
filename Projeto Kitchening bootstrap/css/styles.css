@@ -1,0 +1,81 @@
+.container {
+   /* background-color:yellowgreen;*/
+   background-image: url(../imagens/background-star-wars.jpg);
+   background-repeat: no-repeat;
+  
+}
+@media only screen and (max-width: 576px) {
+    .container {
+        /* background-color:yellowgreen;*/
+        background-image: url(../imagens/background-star-wars.jpg);
+        background-repeat: norepeat;
+        background-size: 600% 100%;
+       
+     }
+     .nav {
+        display: flex;
+        flex-wrap: nowrap;
+         font-size: 0.4em;         
+         
+     }
+     .barraLink {        
+        opacity: 0;
+    }
+  }
+.barraFoto {
+    position: absolute;
+    text-align: center;
+    width: 92.2%;    
+    opacity: 0.7;
+    background-color: slategray;
+    text-transform: uppercase;
+    color: white;
+    z-index: 10;
+    margin-top: -25%;
+}
+.fotoStatus {
+    position: absolute;
+    margin-top: -46.5%;
+    left: 70%;    
+}
+.footer {
+    
+    height: 150px;
+    background-color: red;
+    border-radius: 50px 50px 0% 0%;      
+}
+a {
+    color: white;
+}
+.cortxt {
+   color: whitesmoke;
+}
+.barraLink {
+    margin-top: 5%;
+    color: white;
+}
+div {
+   /* border: 1px solid black;*/
+}
+.btn {
+    background-color: red !important;
+    width: 100%;    
+}
+.btnMenor {
+    width: 40%;
+}
+.zoom {
+    overflow: hidden;
+    
+}
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.zoom:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
